@@ -1,0 +1,51 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+h1{
+    color: navy;
+    font-size: 60px;
+    text-align: center;
+    border-bottom:1px solid black;
+    margin: 0;
+    padding: 20px;
+}
+#grid ol{
+    border-right: 1px solid black;
+    width: 100px;
+    margin: 0;
+    padding: 20px;
+    padding-left: 43px;
+    padding-right: 5px;
+}
+body{
+    margin: 0;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#grid #article{
+    padding-left: 20px;
+}
+#article h2{
+    margin: 15px;
+}
+/* screen width<800px 은 화면이 800px보다 작아지면 요소들을 변형함*/
+@media (max-width:800px){
+    #grid{
+        display: block;
+    }
+    #grid ol{
+        border-right: none;
+    }
+    h1{
+        border-bottom: none;
+    } 
+}
+#font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#square{
+    border: 2px solid black;
+}
