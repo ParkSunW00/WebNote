@@ -1,2 +1,1 @@
-## WedNote
-Study WEB
+# WedNote

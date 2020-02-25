@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+#square{
+    border: 2px solid black;
+    margin: 300px;
+    margin-top: 250px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: 0px;
+    padding: 50px;
+}
+#grid ol{
+    border-right: 2px solid black;
+    margin: 0px;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#grid{
+    padding-right: 820px;
+}
