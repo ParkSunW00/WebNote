@@ -28,10 +28,17 @@ h1{
 #grid{
     text-align: center;
 }
+#article{
+    width: 100%;
+}
 #article ol{
     margin: 20px;
     font-size: 17px;
-    text-align: center;
+}
+#article li{
+    margin: 0px auto;
+    display: block;
+    width: 360px;
 }
 #displayFLEX{
     display: flex;
