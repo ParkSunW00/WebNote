@@ -23,13 +23,16 @@ h1{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
+    padding-right: 30px;
 }
 #grid{
-    padding-right: 820px;
     text-align: center;
 }
 #article ol{
     margin: 20px;
     font-size: 17px;
     text-align: center;
+}
+#displayFLEX{
+    display: flex;
 }
