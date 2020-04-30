@@ -1,0 +1,58 @@
+
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: aliceblue;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.menu{
+    background-color: #E8ACB4;
+    text-align: center;
+}
+.menu i {
+    float: left;
+}
+.menu ul{
+    display: inline-flex;
+    margin-top: 20px;
+    list-style: none;
+    color: white;
+}
+.menu ul li {
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.menu a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: rgb(214, 157, 165);
+}
+ul li:hover ul{
+    display: block;
+}
+.more{
+    text-align: center;
+}
+.more ul{
+    background-color: #E8ACB4;
+    display: none;
+}
+.more li{
+    float: none;
+    padding: 5px;
+    margin: 5px;
+}
