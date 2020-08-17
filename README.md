@@ -1,2 +1,2 @@
-# WedNote
+# WebNote
 Web Study Example
